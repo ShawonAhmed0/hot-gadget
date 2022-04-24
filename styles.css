@@ -1,0 +1,119 @@
+body {font-family: 'Poppins', sans-serif;
+
+}
+
+.container{
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: grey;
+    font-weight: 600;
+}
+.nav-link {
+    margin-left: 30px;
+}
+
+.top-bg1 {
+    background-image: url(bg-1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.top-bg2 {
+    background-image: url(bg-2.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+
+}
+.buy-now{
+    color: black;
+}
+.carousel-inner p {
+    color: grey;
+}
+.top-bg1 h2,p,a {
+    margin-bottom: 1.5rem;
+}
+.top-bg1 a {
+    background-color: black;
+    border-radius: 5px;
+    padding: 5px 20px;
+}
+.carousel-indicators [data-bs-target] {
+
+    background-color: orange;
+
+
+}
+
+.navbar-toggler-icon {
+ background-image: url(logo.png);
+}
+.smartphone h6 {
+    color: orange;
+    font-weight:500 ;
+}
+.smartphone h4 {
+    font-weight: 600;
+}
+.card{
+    border: none;
+    box-shadow:lightgray 5px 5px 10px;
+    border-radius: 20px;
+}
+.card-img-top{
+    width: 200px;
+}
+.card p {
+font-weight: 300;
+}
+.card img {
+    margin-top: 30px;
+}
+.smartphone {
+    padding: 30px 0;
+}
+
+
+.line {
+    background-image: linear-gradient(90deg, rgb(255, 208, 0), orange);
+    width: 100px;
+    height: 8px;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    position: absolute;
+   
+}
+.line:hover {
+    width: 200px;
+    transition: .4s ;
+}
+.bglast {
+    height: 250px;
+    width: 250px;
+    background-color: white;
+    box-shadow: 5px 5px 40px 1px rgb(231, 231, 231);
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
+}
+.bglast img {
+margin-bottom: 10px;
+    
+}
+.bglast p {
+   font-weight: 500;
+        
+    }
+.spc {
+padding-top: 50px;
+}   
+footer p {
+    color: rgb(176, 176, 176);
+} 
